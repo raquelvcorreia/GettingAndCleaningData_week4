@@ -1,7 +1,12 @@
 
-## Read data X_train.txt into a new object called train_dataset, this file consist of a 561-feature vector, the variables/column names, should be pulled from features.txt file
+## Read the train and test data sets separately and than merge the two. 
+## each data set contains "n" observations (rows) of 561 variables (columns
 
-## save column/variables names from the features.txt into a table
+## The variables/columns names of both the train and test data sets are stored in a separate file (features.txt). Also, two variables: "subject" performing 
+## the activity (subject_train.txt or subject_test.txt) and the actual "activity" (y_train.txt or y_test.txt) are stored separate files and will need to be merged.
+
+
+## store column/variables names from the features.txt into a table
 
 variables <- read.table("features.txt",header = FALSE, nrows=561)
 
