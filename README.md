@@ -10,11 +10,11 @@
 
 
 ## A subset of the complete_data_2, with only the variables that are a mean or standard deviation, as well as the subject and activity, are stored in the data frame "act_select_1". This data frame, is a tidy data set with 88 columns/variables and 10299 rows/observation, where all variables have distinctive names and the activity numbers have been replaced by the actual activity names
-# tidy_act_select_1.csv, is the csv version of act_select_1
+# tidy_select_1.csv, is the csv version of act_select_1
 
 ## An additionally, in group_summarize, an additional anlysis was done where the act_select_1 data set was organized by subject and activity and the remaining variables summarized/collapsed using the average. The variable names were changed, by additng the prefix 'mean_' to reflect that the data present it the columns is now the average off the observations for that variable for each activity and each subject. 
 
-# tidy_group_summarize.csv, is the csv version of act_select_1
+# tidy_summarize.csv, is the csv version of act_select_1
 
 ## write.csv was used to generate the csv's uploaded to this repository
 
