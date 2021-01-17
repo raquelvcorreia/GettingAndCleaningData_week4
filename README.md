@@ -14,7 +14,8 @@
 
 ## An additionally, in group_summarize, an additional anlysis was done where the act_select_1 data set was organized by subject and activity and the remaining variables summarized/collapsed using the average. The variable names were changed, by additng the prefix 'mean_' to reflect that the data present it the columns is now the average off the observations for that variable for each activity and each subject. 
 
-# tidy_summarize.csv, is the csv version of act_select_1
+# tidy_summarize.csv, is the csv version of group_summarize
+# tidy_final.txt is the text file version of the data set in group_summarize and it was created with write.table() using row.name=FALSE
 
 ## write.csv was used to generate the csv's uploaded to this repository
-
+## 
